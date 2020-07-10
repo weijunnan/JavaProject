@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.atguigu.spring.cloud</groupId>
+	<artifactId>pro06-spring-cloud-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- 导入SpringCloud需要使用的依赖信息 -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Greenwich.SR2</version>
+				<type>pom</type>
+				<!-- import依赖范围表示将spring-cloud-dependencies包中的依赖信息导入 -->
+				<scope>import</scope>
+			</dependency>
+			<!-- 导入SpringBoot需要使用的依赖信息 -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>2.1.6.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>pro07-spring-cloud-common</module>
+		<module>pro08-spring-cloud-provider</module>
+		<module>pro09-spring-cloud-consumer</module>
+		<module>pro10-spring-cloud-eureka</module>
+	</modules>
+</project>

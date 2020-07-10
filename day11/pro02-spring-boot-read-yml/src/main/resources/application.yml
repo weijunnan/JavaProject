@@ -1,0 +1,19 @@
+student:
+  stu-id: 5
+  stu-name: jerry
+  graduated: false
+  subject:  - java
+  - php
+  - mysql
+  birthday: 1998-10-12 20:15:06  teachers:    java: tom
+    mysql: tony
+    web: bob
+  address:    province: 广东
+    city: 深圳
+    street: 宝安大道
+atguigu.best.wishes: "圣诞快乐！"
+#非常不建议使用root给SpringBoot设置全局范围的日志级别，影响范围太大。没有特殊需要还是保持默认级别INFO
+#logging:#  level:#    root: debug
+#如果局部代码由需要设置日志级别，那么使用“包名加级别”方式局部指定
+logging:  level:
+    com.atguigu.spring.boot.test: debug

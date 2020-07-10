@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.spring.boot.mapper.EmpMapper">
+	<select id="selectAll"
+		resultType="com.atguigu.spring.boot.entity.Emp">
+		select emp_id empId, emp_name empName, emp_age empAge
+		from
+		table_emp
+	</select>
+</mapper>

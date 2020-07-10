@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="0" name="com.atguigu.crowd.test.CrowdTest" time="3.642" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\installations\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workstation\Station190830\atcrowdfunding01-admin-parent"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workstation\Station190830\atcrowdfunding01-admin-parent"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\installations\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\workstation\Station190830\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7948406807820580506.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\installations\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/installations/Java/jdk1.8.0_111/bin/../jre/bin/server;D:/installations/Java/jdk1.8.0_111/bin/../jre/bin;D:/installations/Java/jdk1.8.0_111/bin/../jre/lib/amd64;D:\installations\myxftp\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\installations\MySQLInstallation\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\installations\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\installations\Java\jdk1.8.0_111\bin;D:\installations\apache\apache-tomcat-7.0.57\bin;D:\installations\apache\apache-maven-3.5.4\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;D:\eclipses\sts-3.9.5.RELEASE12;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="java.class.path" value="D:\installations\apache\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\installations\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs D:\installations\apache\apache-maven-3.5.4\conf\settings.xml -s D:\installations\apache\apache-maven-3.5.4\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="D:\installations\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\installations\Java\jdk1.8.0_111\jre\lib\resources.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\rt.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\jsse.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\jce.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\charsets.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\jfr.jar;D:\installations\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\installations\apache\apache-maven-3.5.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.atguigu.crowd.test.CrowdTest" name="testConnection" time="0.49"/>
+  <testcase classname="com.atguigu.crowd.test.CrowdTest" name="testLog" time="0.002"/>
+  <testcase classname="com.atguigu.crowd.test.CrowdTest" name="testTx" time="1.215"/>
+  <testcase classname="com.atguigu.crowd.test.CrowdTest" name="testInsertAdmin" time="0.099">
+    <error message="
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+### The error may involve com.atguigu.crowd.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_admin (id, login_acct, user_pswd,   user_name, email, create_time   )   values (?, ?,   ?,   ?, ?, ?   )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+; SQL []; Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;" type="org.springframework.dao.DuplicateKeyException">org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+### The error may involve com.atguigu.crowd.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_admin (id, login_acct, user_pswd,   user_name, email, create_time   )   values (?, ?,   ?,   ?, ?, ?   )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+; SQL []; Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:238)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy18.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy19.insert(Unknown Source)
+	at com.atguigu.crowd.test.CrowdTest.testInsertAdmin(CrowdTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:378)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3378)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3310)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1853)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1976)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy32.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy30.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 41 more
+</error>
+    <system-out>[14:39:28.494] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils] [Retrieved @ProfileValueSourceConfiguration [null] for test class [com.atguigu.crowd.test.CrowdTest]]
+[14:39:28.494] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils] [Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.atguigu.crowd.test.CrowdTest]]
+[14:39:28.494] [DEBUG] [main] [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] [Performing dependency injection for test context [[DefaultTestContext@7e9a5fbe testClass = CrowdTest, testInstance = com.atguigu.crowd.test.CrowdTest@424ebba3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@44a3ec6b testClass = CrowdTest, locations = &apos;{classpath:spring-persist-mybatis.xml, classpath:spring-persist-tx.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].]
+[14:39:28.496] [DEBUG] [main] [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate] [Retrieved ApplicationContext from cache with key [[MergedContextConfiguration@44a3ec6b testClass = CrowdTest, locations = &apos;{classpath:spring-persist-mybatis.xml, classpath:spring-persist-tx.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]]
+[14:39:28.496] [DEBUG] [main] [org.springframework.test.context.cache] [Spring test ApplicationContext cache statistics: [DefaultContextCache@3e7dd664 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.annotation.InjectionMetadata] [Processing injected element of bean &apos;com.atguigu.crowd.test.CrowdTest&apos;: AutowiredFieldElement for private javax.sql.DataSource com.atguigu.crowd.test.CrowdTest.dataSource]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Returning cached instance of singleton bean &apos;dataSource&apos;]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.annotation.InjectionMetadata] [Processing injected element of bean &apos;com.atguigu.crowd.test.CrowdTest&apos;: AutowiredFieldElement for private com.atguigu.crowd.mapper.AdminMapper com.atguigu.crowd.test.CrowdTest.adminMapper]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Returning cached instance of singleton bean &apos;adminMapper&apos;]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.annotation.InjectionMetadata] [Processing injected element of bean &apos;com.atguigu.crowd.test.CrowdTest&apos;: AutowiredFieldElement for private com.atguigu.crowd.service.api.AdminService com.atguigu.crowd.test.CrowdTest.adminService]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Returning cached instance of singleton bean &apos;adminServiceImpl&apos;]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.annotation.InjectionMetadata] [Processing injected element of bean &apos;com.atguigu.crowd.test.CrowdTest&apos;: AutowiredFieldElement for private com.atguigu.crowd.mapper.RoleMapper com.atguigu.crowd.test.CrowdTest.roleMapper]
+[14:39:28.496] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Returning cached instance of singleton bean &apos;roleMapper&apos;]
+[14:39:28.498] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener] [Before test method: context [DefaultTestContext@7e9a5fbe testClass = CrowdTest, testInstance = com.atguigu.crowd.test.CrowdTest@424ebba3, testMethod = testInsertAdmin@CrowdTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@44a3ec6b testClass = CrowdTest, locations = &apos;{classpath:spring-persist-mybatis.xml, classpath:spring-persist-tx.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].]
+[14:39:28.498] [DEBUG] [main] [org.mybatis.spring.SqlSessionUtils] [Creating a new SqlSession]
+[14:39:28.499] [DEBUG] [main] [org.mybatis.spring.SqlSessionUtils] [SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37052337] was not registered for synchronization because synchronization is not active]
+[14:39:28.499] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [Fetching JDBC Connection from DataSource]
+[14:39:28.499] [DEBUG] [main] [org.mybatis.spring.transaction.SpringManagedTransaction] [JDBC Connection [com.mysql.jdbc.JDBC4Connection@447a020] will not be managed by Spring]
+[14:39:28.499] [DEBUG] [main] [com.atguigu.crowd.mapper.AdminMapper.insert] [==&gt;  Preparing: insert into t_admin (id, login_acct, user_pswd, user_name, email, create_time ) values (?, ?, ?, ?, ?, ? ) ]
+[14:39:28.500] [DEBUG] [main] [com.atguigu.crowd.mapper.AdminMapper.insert] [==&gt; Parameters: null, tom(String), 123123(String), ��ķ(String), tom@qq.com(String), null]
+[14:39:28.517] [DEBUG] [main] [org.mybatis.spring.SqlSessionUtils] [Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37052337]]
+[14:39:28.517] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [Returning JDBC Connection to DataSource]
+[14:39:28.524] [DEBUG] [main] [org.springframework.core.env.StandardEnvironment] [Adding PropertySource &apos;systemProperties&apos; with lowest search precedence]
+[14:39:28.524] [DEBUG] [main] [org.springframework.core.env.StandardEnvironment] [Adding PropertySource &apos;systemEnvironment&apos; with lowest search precedence]
+[14:39:28.524] [DEBUG] [main] [org.springframework.core.env.StandardEnvironment] [Initialized StandardEnvironment with PropertySources [MapPropertySource@1700721442 {name=&apos;systemProperties&apos;, properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=D:\installations\Java\jdk1.8.0_111\jre\bin, java.vm.version=25.111-b14, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui, java.runtime.version=1.8.0_111-b14, basedir=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=D:\installations\Java\jdk1.8.0_111\jre\lib\endorsed, os.arch=amd64, surefire.real.class.path=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\surefire\surefirebooter4923125411941371937.jar, java.io.tmpdir=C:\Users\Lenovo\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=GBK, java.library.path=D:\installations\Java\jdk1.8.0_111\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/installations/Java/jdk1.8.0_111/bin/../jre/bin/server;D:/installations/Java/jdk1.8.0_111/bin/../jre/bin;D:/installations/Java/jdk1.8.0_111/bin/../jre/lib/amd64;D:\installations\myxftp\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\installations\MySQLInstallation\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\installations\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\installations\Java\jdk1.8.0_111\bin;D:\installations\apache\apache-tomcat-7.0.57\bin;D:\installations\apache\apache-maven-3.5.4\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;D:\eclipses\sts-3.9.5.RELEASE12;;., surefire.test.class.path=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\test-classes;D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\classes;D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding03-admin-component\target\atcrowdfunding03-admin-component-0.0.1-SNAPSHOT.jar;D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding04-admin-entity\target\atcrowdfunding04-admin-entity-0.0.1-SNAPSHOT.jar;D:\RepMaven\com\atguigu\crowd\atcrowdfunding05-common-util\0.0.1-SNAPSHOT\atcrowdfunding05-common-util-0.0.1-SNAPSHOT.jar;D:\RepMaven\org\springframework\spring-orm\4.3.20.RELEASE\spring-orm-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-beans\4.3.20.RELEASE\spring-beans-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-jdbc\4.3.20.RELEASE\spring-jdbc-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-tx\4.3.20.RELEASE\spring-tx-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-webmvc\4.3.20.RELEASE\spring-webmvc-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-aop\4.3.20.RELEASE\spring-aop-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-context\4.3.20.RELEASE\spring-context-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-expression\4.3.20.RELEASE\spring-expression-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-web\4.3.20.RELEASE\spring-web-4.3.20.RELEASE.jar;D:\RepMaven\org\aspectj\aspectjweaver\1.9.2\aspectjweaver-1.9.2.jar;D:\RepMaven\cglib\cglib\2.2\cglib-2.2.jar;D:\RepMaven\asm\asm\3.1\asm-3.1.jar;D:\RepMaven\mysql\mysql-connector-java\5.1.3\mysql-connector-java-5.1.3.jar;D:\RepMaven\com\alibaba\druid\1.0.31\druid-1.0.31.jar;D:\installations\Java\jdk1.8.0_111\jre\..\lib\jconsole.jar;D:\installations\Java\jdk1.8.0_111\jre\..\lib\tools.jar;D:\RepMaven\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\RepMaven\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\RepMaven\com\github\pagehelper\pagehelper\4.0.0\pagehelper-4.0.0.jar;D:\RepMaven\com\github\jsqlparser\jsqlparser\0.9.1\jsqlparser-0.9.1.jar;D:\RepMaven\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;D:\RepMaven\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\RepMaven\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\RepMaven\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;D:\RepMaven\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\RepMaven\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\RepMaven\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\RepMaven\jstl\jstl\1.2\jstl-1.2.jar;D:\RepMaven\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;D:\RepMaven\org\springframework\security\spring-security-web\4.2.10.RELEASE\spring-security-web-4.2.10.RELEASE.jar;D:\RepMaven\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\RepMaven\org\springframework\security\spring-security-core\4.2.10.RELEASE\spring-security-core-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\security\spring-security-config\4.2.10.RELEASE\spring-security-config-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\security\spring-security-taglibs\4.2.10.RELEASE\spring-security-taglibs-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\security\spring-security-acl\4.2.10.RELEASE\spring-security-acl-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\spring-test\4.3.20.RELEASE\spring-test-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-core\4.3.20.RELEASE\spring-core-4.3.20.RELEASE.jar;D:\RepMaven\junit\junit\4.12\junit-4.12.jar;D:\RepMaven\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\RepMaven\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\RepMaven\javax\servlet\jsp\jsp-api\2.1.3-b06\jsp-api-2.1.3-b06.jar;D:\RepMaven\org\glassfish\javax.servlet\3.0-b70\javax.servlet-3.0-b70.jar;D:\RepMaven\javax\el\el-api\2.1.2-b05\el-api-2.1.2-b05.jar;, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\Lenovo, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\test-classes;D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\classes;D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding03-admin-component\target\atcrowdfunding03-admin-component-0.0.1-SNAPSHOT.jar;D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding04-admin-entity\target\atcrowdfunding04-admin-entity-0.0.1-SNAPSHOT.jar;D:\RepMaven\com\atguigu\crowd\atcrowdfunding05-common-util\0.0.1-SNAPSHOT\atcrowdfunding05-common-util-0.0.1-SNAPSHOT.jar;D:\RepMaven\org\springframework\spring-orm\4.3.20.RELEASE\spring-orm-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-beans\4.3.20.RELEASE\spring-beans-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-jdbc\4.3.20.RELEASE\spring-jdbc-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-tx\4.3.20.RELEASE\spring-tx-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-webmvc\4.3.20.RELEASE\spring-webmvc-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-aop\4.3.20.RELEASE\spring-aop-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-context\4.3.20.RELEASE\spring-context-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-expression\4.3.20.RELEASE\spring-expression-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-web\4.3.20.RELEASE\spring-web-4.3.20.RELEASE.jar;D:\RepMaven\org\aspectj\aspectjweaver\1.9.2\aspectjweaver-1.9.2.jar;D:\RepMaven\cglib\cglib\2.2\cglib-2.2.jar;D:\RepMaven\asm\asm\3.1\asm-3.1.jar;D:\RepMaven\mysql\mysql-connector-java\5.1.3\mysql-connector-java-5.1.3.jar;D:\RepMaven\com\alibaba\druid\1.0.31\druid-1.0.31.jar;D:\installations\Java\jdk1.8.0_111\jre\..\lib\jconsole.jar;D:\installations\Java\jdk1.8.0_111\jre\..\lib\tools.jar;D:\RepMaven\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\RepMaven\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\RepMaven\com\github\pagehelper\pagehelper\4.0.0\pagehelper-4.0.0.jar;D:\RepMaven\com\github\jsqlparser\jsqlparser\0.9.1\jsqlparser-0.9.1.jar;D:\RepMaven\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;D:\RepMaven\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\RepMaven\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\RepMaven\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;D:\RepMaven\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\RepMaven\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\RepMaven\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\RepMaven\jstl\jstl\1.2\jstl-1.2.jar;D:\RepMaven\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;D:\RepMaven\org\springframework\security\spring-security-web\4.2.10.RELEASE\spring-security-web-4.2.10.RELEASE.jar;D:\RepMaven\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\RepMaven\org\springframework\security\spring-security-core\4.2.10.RELEASE\spring-security-core-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\security\spring-security-config\4.2.10.RELEASE\spring-security-config-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\security\spring-security-taglibs\4.2.10.RELEASE\spring-security-taglibs-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\security\spring-security-acl\4.2.10.RELEASE\spring-security-acl-4.2.10.RELEASE.jar;D:\RepMaven\org\springframework\spring-test\4.3.20.RELEASE\spring-test-4.3.20.RELEASE.jar;D:\RepMaven\org\springframework\spring-core\4.3.20.RELEASE\spring-core-4.3.20.RELEASE.jar;D:\RepMaven\junit\junit\4.12\junit-4.12.jar;D:\RepMaven\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\RepMaven\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\RepMaven\javax\servlet\jsp\jsp-api\2.1.3-b06\jsp-api-2.1.3-b06.jar;D:\RepMaven\org\glassfish\javax.servlet\3.0-b70\javax.servlet-3.0-b70.jar;D:\RepMaven\javax\el\el-api\2.1.2-b05\el-api-2.1.2-b05.jar;, user.name=Lenovo, java.vm.specification.version=1.8, sun.java.command=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\surefire\surefirebooter4923125411941371937.jar D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\surefire\surefire3614417224324432745tmp D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\target\surefire\surefire_04473144356560549150tmp, java.home=D:\installations\Java\jdk1.8.0_111\jre, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_111, java.ext.dirs=D:\installations\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=D:\installations\Java\jdk1.8.0_111\jre\lib\resources.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\rt.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\jsse.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\jce.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\charsets.jar;D:\installations\Java\jdk1.8.0_111\jre\lib\jfr.jar;D:\installations\Java\jdk1.8.0_111\jre\classes, java.vendor=Oracle Corporation, localRepository=D:\RepMaven, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@2116511124 {name=&apos;systemEnvironment&apos;, properties={PATH=D:/installations/Java/jdk1.8.0_111/bin/../jre/bin/server;D:/installations/Java/jdk1.8.0_111/bin/../jre/bin;D:/installations/Java/jdk1.8.0_111/bin/../jre/lib/amd64;D:\installations\myxftp\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\installations\MySQLInstallation\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\installations\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\installations\Java\jdk1.8.0_111\bin;D:\installations\apache\apache-tomcat-7.0.57\bin;D:\installations\apache\apache-maven-3.5.4\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;D:\eclipses\sts-3.9.5.RELEASE12;, USERDOMAIN_ROAMINGPROFILE=AAA, LOCALAPPDATA=C:\Users\Lenovo\AppData\Local, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, VS140COMNTOOLS=D:\installations\VisualStudio\Common7\Tools\, USERDOMAIN=AAA, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\AAA, JAVA_HOME=D:\installations\Java\jdk1.8.0_111, PROMPT=$P$G, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROGRAMFILES(X86)=C:\Program Files (x86), PROCESSOR_ARCHITECTURE=AMD64, DRIVERDATA=C:\Windows\System32\Drivers\DriverData, MAVEN_HOME=D:\installations\apache\apache-maven-3.5.4, PROGRAMFILES=C:\Program Files, APPDATA=C:\Users\Lenovo\AppData\Roaming, PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, PROGRAMW6432=C:\Program Files, PROGRAMDATA=C:\ProgramData, SYSTEMROOT=C:\WINDOWS, USERNAME=Lenovo, FPS_BROWSER_USER_PROFILE_STRING=Default, ONEDRIVE=C:\Users\Lenovo\OneDrive, CONFIGSETROOT=C:\WINDOWS\ConfigSetRoot, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMMONPROGRAMW6432=C:\Program Files\Common Files, COMPUTERNAME=AAA, COMMONPROGRAMFILES=C:\Program Files\Common Files, COMSPEC=C:\WINDOWS\system32\cmd.exe, PROCESSOR_REVISION=4e03, WINDIR=C:\WINDOWS, =D:=D:\workstation\Station190830\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui, HOMEPATH=\Users\Lenovo, TEMP=C:\Users\Lenovo\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Lenovo, TMP=C:\Users\Lenovo\AppData\Local\Temp, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4, =::=::\}}]]
+[14:39:28.526] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]]
+[14:39:28.530] [DEBUG] [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader] [Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]]
+[14:39:28.533] [DEBUG] [main] [org.springframework.beans.factory.xml.BeansDtdResolver] [Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd]
+[14:39:28.541] [DEBUG] [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader] [Loading bean definitions]
+[14:39:28.565] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;DB2&apos;]
+[14:39:28.566] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;DB2&apos;]
+[14:39:28.566] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;DB2&apos; to allow for resolving potential circular references]
+[14:39:28.574] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;DB2&apos;]
+[14:39:28.574] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;Derby&apos;]
+[14:39:28.574] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;Derby&apos;]
+[14:39:28.575] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;Derby&apos; to allow for resolving potential circular references]
+[14:39:28.575] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;Derby&apos;]
+[14:39:28.575] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;H2&apos;]
+[14:39:28.575] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;H2&apos;]
+[14:39:28.576] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;H2&apos; to allow for resolving potential circular references]
+[14:39:28.576] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;H2&apos;]
+[14:39:28.576] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;HDB&apos;]
+[14:39:28.576] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;HDB&apos;]
+[14:39:28.576] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;HDB&apos; to allow for resolving potential circular references]
+[14:39:28.579] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;HDB&apos;]
+[14:39:28.579] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;HSQL&apos;]
+[14:39:28.579] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;HSQL&apos;]
+[14:39:28.579] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;HSQL&apos; to allow for resolving potential circular references]
+[14:39:28.581] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;HSQL&apos;]
+[14:39:28.581] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;Informix&apos;]
+[14:39:28.581] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;Informix&apos;]
+[14:39:28.581] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;Informix&apos; to allow for resolving potential circular references]
+[14:39:28.582] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;Informix&apos;]
+[14:39:28.582] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;MS-SQL&apos;]
+[14:39:28.582] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;MS-SQL&apos;]
+[14:39:28.582] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;MS-SQL&apos; to allow for resolving potential circular references]
+[14:39:28.583] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;MS-SQL&apos;]
+[14:39:28.583] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;MySQL&apos;]
+[14:39:28.583] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;MySQL&apos;]
+[14:39:28.583] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;MySQL&apos; to allow for resolving potential circular references]
+[14:39:28.583] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;MySQL&apos;]
+[14:39:28.584] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;Oracle&apos;]
+[14:39:28.584] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;Oracle&apos;]
+[14:39:28.584] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;Oracle&apos; to allow for resolving potential circular references]
+[14:39:28.584] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;Oracle&apos;]
+[14:39:28.584] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;PostgreSQL&apos;]
+[14:39:28.585] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;PostgreSQL&apos;]
+[14:39:28.585] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;PostgreSQL&apos; to allow for resolving potential circular references]
+[14:39:28.585] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;PostgreSQL&apos;]
+[14:39:28.585] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating shared instance of singleton bean &apos;Sybase&apos;]
+[14:39:28.585] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Creating instance of bean &apos;Sybase&apos;]
+[14:39:28.585] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Eagerly caching bean &apos;Sybase&apos; to allow for resolving potential circular references]
+[14:39:28.586] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [Finished creating instance of bean &apos;Sybase&apos;]
+[14:39:28.586] [DEBUG] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory] [SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]]
+[14:39:28.587] [DEBUG] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory] [Looking up default SQLErrorCodes for DataSource [com.alibaba.druid.pool.DruidDataSource@5cde6747]]
+[14:39:28.590] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [Fetching JDBC Connection from DataSource]
+[14:39:28.591] [DEBUG] [main] [org.springframework.jdbc.datasource.DataSourceUtils] [Returning JDBC Connection to DataSource]
+[14:39:28.591] [DEBUG] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory] [SQL error codes for &apos;MySQL&apos; found]
+[14:39:28.591] [DEBUG] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory] [Caching SQL error codes for DataSource [com.alibaba.druid.pool.DruidDataSource@5cde6747]: database product name is &apos;MySQL&apos;]
+[14:39:28.591] [DEBUG] [main] [org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator] [Translating SQLException with SQL state &apos;23000&apos;, error code &apos;1062&apos;, message [Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;]; SQL was [] for task [
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+### The error may involve com.atguigu.crowd.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_admin (id, login_acct, user_pswd,   user_name, email, create_time   )   values (?, ?,   ?,   ?, ?, ?   )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+]]
+[14:39:28.593] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener] [After test method: context [DefaultTestContext@7e9a5fbe testClass = CrowdTest, testInstance = com.atguigu.crowd.test.CrowdTest@424ebba3, testMethod = testInsertAdmin@CrowdTest, testException = org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+### The error may involve com.atguigu.crowd.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_admin (id, login_acct, user_pswd,   user_name, email, create_time   )   values (?, ?,   ?,   ?, ?, ?   )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;
+; SQL []; Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry &apos;tom&apos; for key &apos;login_acct&apos;, mergedContextConfiguration = [MergedContextConfiguration@44a3ec6b testClass = CrowdTest, locations = &apos;{classpath:spring-persist-mybatis.xml, classpath:spring-persist-tx.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].]
+</system-out>
+  </testcase>
+  <testcase classname="com.atguigu.crowd.test.CrowdTest" name="test" time="1.019"/>
+  <testcase classname="com.atguigu.crowd.test.CrowdTest" name="testRoleSave" time="0.817"/>
+</testsuite>

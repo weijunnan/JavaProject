@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "student",
+      "type": "com.atguigu.spring.boot.entity.Student",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    }
+  ],
+  "properties": [
+    {
+      "name": "student.address",
+      "type": "com.atguigu.spring.boot.entity.Address",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    },
+    {
+      "name": "student.birthday",
+      "type": "java.util.Date",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    },
+    {
+      "name": "student.graduated",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    },
+    {
+      "name": "student.stu-id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    },
+    {
+      "name": "student.stu-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    },
+    {
+      "name": "student.subject",
+      "type": "java.lang.String[]",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    },
+    {
+      "name": "student.teachers",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.atguigu.spring.boot.entity.Student"
+    }
+  ],
+  "hints": []
+}

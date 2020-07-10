@@ -1,0 +1,20 @@
+server:
+  port: 5000
+spring:  application:    name: atguigu-crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:    host: 192.168.19.100
+  session:    store-type: redis
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+aliyun:
+  oss:
+    access-key-id: LTAI4FrkwzQdXia8uvEtgReW
+    access-key-secret: NvjZRFpH86GVXSV2cfGWtmXLb90ksJ
+    bucket-domain: http://atguigu-crowd-video.oss-cn-shenzhen.aliyuncs.com
+    bucket-name: atguigu-crowd-video
+    end-point: http://oss-cn-shenzhen.aliyuncs.com

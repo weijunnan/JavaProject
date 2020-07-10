@@ -1,0 +1,9 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: atguigu-feign-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5000/eureka/

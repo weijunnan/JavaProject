@@ -1,0 +1,13 @@
+server:
+  port: 80
+spring:  application:    name: atguigu-crowd-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+zuul:
+  ignored-services: "*"
+  sensitive-headers: "*"  # 在Zuul向其他微服务重定向时保持原本头信息（请求头、响应头）  routes:
+    crowd-portal:
+      service-id: atguigu-crowd-auth
+      path: /** # 这里一定要使用两个“*”号，不然“/”路径后面的多层路径将无法访问

@@ -1,0 +1,14 @@
+server:
+  port: 9000  servlet:    context-path: /xigua
+spring:
+  application:
+    name: zuul-gateway
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5000/eureka/
+zuul:
+  ignored-services: '*'
+  prefix: /maomi  routes:    employee:
+      service-id: atguigu-feign-consumer
+      path: /zuul-emp/**
